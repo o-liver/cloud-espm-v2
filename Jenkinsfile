@@ -11,7 +11,7 @@ import com.sap.piper.Utils
  *	license agreement you entered into with SAP.
 */
 
-@Library('piper-library-os') _
+@Library('oliver-piper-library-os@neoDeploy') _
 
 node() {
   //Global variables:
