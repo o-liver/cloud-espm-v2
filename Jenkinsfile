@@ -44,6 +44,7 @@ node() {
     echo '[INFO] The validation was successful.'
   }
 
+  /*
   stage("Validate installations"){
     echo '[INFO] Validating installation requirements.'
     toolValidate tool: 'java', home: JAVA_HOME
@@ -51,6 +52,7 @@ node() {
     toolValidate tool: 'neo', home: NEO_HOME
     echo '[INFO] The validation was successful.'
   }
+  */
 
   stage("Build Fiori App"){
     dir(SRC){
